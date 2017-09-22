@@ -16,6 +16,7 @@ public class WebTest {
 		System.setProperty("webdriver.gecko.driver", ".\\Drivers\\FirefoxDriver\\geckodriver.exe");
 		WebDriver driver=new FirefoxDriver();
 		String a ="This is a string";
+		String b="This is a new string";
 		driver.get(URL);
 		ArrayList<String> a = new ArrayList<String>();
 		System.out.println("Title of the page is ="+driver.getTitle());
